@@ -1,0 +1,178 @@
+#header {
+	background-image: url(header-pic.jpg);
+	/* background-position: center; */
+	align-content: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: repeat;
+	/*color: #98a5be;*/
+	height: 60%;
+	width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #b0d5ce; /* #64779e; the bright very light blue*/
+	font-size:60px;
+	font-weight: bold;
+    line-height: 200%;
+    text-shadow: 2px 2px 8px #64779e;
+}
+
+#footer{
+	background-color: #2c6675;
+	text-align: center;
+	color: #98a5be;
+}
+
+body{
+	background-color: #1d2c4d; 
+/*#293340;*/ /*the darker background*/
+	color: #98a5be;
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	color: #b0d5ce; /* #64779e; the bright very light blue*/
+	font-size:60px;
+	font-weight: bold;
+    text-shadow: 2px 2px 8px #64779e;
+}
+
+h2{
+	color: #8ec3b9; /*the darker light purple*/
+	font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 8px #64779e;
+}
+
+
+
+p{
+	color: #98a5be;
+    padding: 30px;
+}
+
+input{
+	font-family: 'Lato', sans-serif;
+}
+
+input[type=text] {
+	background-color: #293340;
+    width: 20%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #73878A;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	color: #E3C6B8;
+}
+
+textarea{
+	font-family: 'Lato', sans-serif;
+	background-color: #293340;
+    width: 20%;
+	height: 36px;
+    padding: 6px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #73878A;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	color: #E3C6B8;
+	resize: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #783647;
+}
+
+.button {
+    background-color: #C47372;
+    border: none;
+    color: #EBEBD6;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #783647;
+    color: white;
+}
+
+li {
+	color: #E3C6B8; /*the lighter pink*/
+	
+	/*
+	color
+		keywords -> blue, red, tomato, rebeccapurple
+		rgb -> 0-255 
+			rgb(255,0,0)
+		0-9 & A-F
+			#ff0000
+			  R  G  B
+			if all three pairs are identical, can do #f00
+	*/
+		
+		/*list-style-type: square;*/
+}
+
+a:link {
+    text-decoration: none;
+	color: #E3C6B8; 
+	
+}
+
+a:visited {
+    text-decoration: none;
+	color: #C47372;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #EBEBD6;
+}
+
+nav li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+/*
+Color Palette
+#EBEBD6
+#E3C6B8
+#C47372
+#783647
+#293340   
+#73878A   
+*/
+
+/*COLOR PALETTE
+#b0d5ce
+#8ec3b9 -h1
+#6f9ba5
+
+#3C7680
+#2c6675
+#4b6878
+
+#98a5be
+#64779e -h2
+
+#283d6a
+#304a7d
+#334e87
+
+#023e58  color of land - background
+#1a3646
+
+#1d2c4d
+#0e1626  color of sea
+*/
